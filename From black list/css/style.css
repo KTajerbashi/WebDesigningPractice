@@ -1,0 +1,213 @@
+
+/*  Ronakweb.com  */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: 'yekan';
+	src: url(fonts/Yekan.eot);
+	src: url(fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(fonts/Yekan.woff) format("woff"), url(fonts/Yekan.ttf) format("truetype"), url(fonts/Yekan.svg#BYekan) format("svg");
+	font-weight: normal;
+	font-style: normal
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: black;
+}
+
+header{
+	height: 40px;
+	width: 100%;
+	background: #000000;
+}
+header > ul > li{
+	float: left;
+	padding: 10px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Action Is, Shaded JL;
+	color: #00AD00;
+
+}
+header > ul > li:hover{
+	color: #00ff83;
+	cursor: pointer;
+}
+header > div > p{
+	font-size: 18px;
+	font-family: Action Is, Shaded JL;
+	color: #ad0500;
+	float: left;
+	padding: 8px;
+	margin-left: 50px;
+}
+header > div > p > input{
+	height: 20px;
+	width: 250px;
+	background: #2b5640;
+	border: 1px solid black;
+	margin-left: 10px;
+}
+#BB{
+	position: absolute;
+	width: 25px;
+	height: 22px;
+	margin-top: 1px;
+	font-size: 19px;
+	background: #2b5640;
+	color: #000000;
+	border: 1px solid black;
+
+}
+nav{
+	height: 100px;
+	width: 100%;
+}
+nav > img {
+	position: absolute;
+	margin-left: -800px;
+	margin-top: 60px;
+	height: 130px;
+	width: 800px;
+	border-radius: 20px ;
+}
+section{
+	height: 600px;
+	width: 69%;
+	float: left;
+	border: 1px solid black;
+}
+section > img{
+	height: 340px;
+	width: 270px;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 120px;
+}
+section > table{
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 120px;
+	line-height: 40px;
+	color: #a7b3d9;
+
+
+}
+section > table tr td {
+	margin-left: 20px;
+	width: 245px;
+}
+.A{
+	font-size: 23px;
+	font-family: AlaskanNights;
+	color: #31ad94;
+
+}
+.B{
+	font-size: 20px;
+	font-family: Action Is, Shaded JL;
+	color: #7a849f;
+
+}
+#N{
+	font-size: 30px;
+	font-family: "AGA Petra Regular";
+
+}
+#K{
+	font : 25px bold;
+	font-family: "matt's handwriting";
+	color: red;
+}
+#BC{
+	font-size: 30px;
+	font-family: "A.C.M.E. Explosive";
+
+}
+#US{
+	font-size: 20px;
+	font-family: "A.C.M.E. Explosive";
+}
+aside{
+	width: 30%;
+	height: 600px;
+	float: right;
+	border: 1px solid black;
+	margin-top: -40px;
+
+}
+aside > form{
+	padding: 10px;
+	background: #d1d5bd;
+	border: 1px solid red;
+	border-radius: 2px;
+	width: 300px;
+	height: 550px;
+	text-align: center;
+}
+aside > form > h1{
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+aside > form > input{
+	line-height: 20px;
+	margin-top: 5px;
+}
+aside > form > p{
+	line-height: 10px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 25px;
+	text-align: left;
+	cursor: pointer;
+
+}
+aside > form >input[type=password]{
+	width: 290px;
+	border: 1px solid wheat;
+	border-radius: 5px;
+	height: 25px;
+}
+aside > form > input[type=submit]{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	color: #000000;
+	background: #b6acb4;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+footer{
+	position: absolute;
+	height: 40px;
+	width: 100%;
+	margin-top: 600px;
+	background: #000000;
+	color: white;
+	text-align: left;
+}
+footer > button {
+	width: 100px;
+	height: 25px;
+	margin-left: 250px;
+	background: black;
+	color: #3c3f52;
+	border: 1px solid #320829;
+	border-radius: 25%;
+	cursor: pointer;
+}
+footer > p{
+	text-align: center;
+	padding: 10px;
+}

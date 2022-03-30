@@ -1,0 +1,334 @@
+
+/*  Ronakweb.com  */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+@font-face {
+	font-family: 'yekan';
+	src: url(../fonts/Yekan.eot);
+	src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"),
+	url(../fonts/Yekan.woff) format("woff"),
+	url(../fonts/Yekan.ttf) format("truetype"),
+	url(../fonts/Yekan.svg#BYekan) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	background: url("../img/Page 1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0 auto;
+
+}
+header{
+	width: calc(100% - 10px);
+	height: 250px;
+
+}
+.DIV1{
+	border-top: 5px double black;
+	border-bottom: 5px double black;
+	height: 150px;
+	width: 70%;
+	margin: 50px auto 10px;
+	background: url("../img/DIV1.jpg");
+
+}
+.DIV1 > h1{
+	margin: 20px 40px;
+	color: #a8dbff;
+	font: 50px "28 Days Later";
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+}
+.DIV1 > h1:hover{
+	transition: all 100ms ease-in-out;
+	color: #afffb0;
+	font-size: 60px;
+}
+.DIV1 > h2{
+	margin: 0px 70px;
+	color: #ad0500;
+	font: 16px "vtks Lemon Drop";
+	cursor: pointer;
+	transition: all 500ms ease-in-out;
+
+}
+.DIV1 > h2:hover{
+	transition: all 500ms ease-in-out;
+	color: aquamarine;
+	font-size: 20px;
+}
+.DIV2{
+	border-top: 3px solid #000000;
+	border-bottom: 8px solid #545657;
+	height: 75px;
+	width: 60%;
+	margin: 0px auto 10px;
+	background-attachment: fixed;
+	transition: all 100ms ease-in-out;
+	color: black;
+}
+#AAA{
+	height: 37px;
+	border: 5px double #908dff;
+	color: red;
+	background: #f5000a;
+	padding-top: 5px;
+	transition: 500ms all ease-in-out;
+	font-size: 20px;
+	font-style: oblique;
+	width: 100px;
+}
+#AAA:hover{
+	border: 5px double #ff000c;
+	background: #45008a;
+	transition: 500ms all ease-in-out;
+	font-size: 25px;
+}
+header > .DIV2:hover{
+	transition: all 100ms ease-in-out;
+	border-top: 8px solid #222425;
+	border-bottom: 3px solid #000000;
+
+}
+header > .DIV2 > ul{
+	text-align: center;
+	margin: 2px 50px;
+	color: black;
+
+}
+header > .DIV2 > ul > li{
+	float: left;
+	width: 80px;
+	height: 67px;
+	border-top: 2px double #000000;
+	border-bottom: 2px double #000000;
+	border-radius: 20px;
+	margin-left: 30px;
+	transition: all 700ms ease-in-out;
+	cursor: pointer;
+}
+header > .DIV2 > ul > li:hover{
+	transition: all 700ms ease-in-out;
+	background: #000000;
+	font-size: 20px;
+	border: 1px groove #ffffff;
+	border-top: 2.5px double #ffffff;
+	border-bottom: 2.5px double #ffffff;
+}
+header > .DIV2 > ul > li > a{
+	color: #000000;
+}
+header > .DIV2 > ul > li > a:hover{
+	color: #ffe698;
+}
+header > .DIV2 > ul > li > a > i{
+	margin-top: 4px;
+}
+nav{
+	height: 60px;
+	width: calc(100% - 5px);
+	border-top: 5px outset #ff111a;
+	border-bottom: 5px outset #36366d;
+	margin: 7px auto;
+	transition: all 350ms ease-in;
+}
+nav:hover{
+	border-top: 7px outset #36366d;
+	border-bottom: 7px outset #ff0009;
+	transition: all 350ms ease-in;
+	background: rgba(0,0,0,0.1);
+}
+nav > div > ul{
+	height: 50px;
+	width:calc(100% - 20px);
+	text-align: center;
+}
+nav > div > ul > li{
+	border: 1px solid  black;
+	border-radius: 14px 2px 14px 2px;
+	float: left;
+	margin: 5px 0 5px 15px ;
+	width: 83px;
+	height: 50px;
+	transition: all 500ms ease-in;
+	background: rgba(0,0,0,0.2);
+}
+nav > div > ul > li:hover{
+	transition: all 300ms ease-in;
+	background: rgba(0,0,0,0.4);
+	border: 2px solid #ffffff;
+	font-size: 18px;
+}
+nav > div > ul > li > a{
+	color: black;
+}
+nav > div > ul > li > a:hover{
+	color: #ffffff;
+}
+nav > div > ul > li > a > i{
+	margin-top: 3px;
+
+}
+.search{
+	position: absolute;
+	margin-left: 1110px;
+	margin-top: -40px;
+}
+.search > input{
+	width: 190px;
+	height: 28px;
+	background: #f2f0f5;
+	color: #002B55;
+	border: 1px double #498ff5;
+	border-radius: 3px 0 0 3px;
+	margin-top: 18px;
+
+}
+.search > input:hover{
+	transition: all 150ms ease-in-out;
+	background: #67c2f5;
+}
+.search > input[type=text]{
+	padding-left: 5px;
+	color: #705295;
+	font-size: 17px;
+}
+.search > button{
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	background: #498ff5;
+	color: #060055;
+	border: 1px double #498ff5;
+	border-radius: 0 15px 15px 0;
+	margin-left: 0px;
+	margin-top: 18px;
+	font-size: 20px;
+	position: absolute;
+	cursor: pointer;
+}
+.search > button:hover{
+	transition: all 1000ms ease;
+	background: #002B55;
+	color: aquamarine;
+}
+aside{
+	width: calc(25% - 5px);
+	height: auto;
+	border-right: 6px double black;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	float: left;
+
+}
+.AD{
+	border: 1px solid black;
+	margin: 30px auto;
+	width: 80%;
+	height: 350px;
+	border-radius: 30px 30px 0 0 ;
+	transition: all 750ms ease-in-out;
+}
+.AD:hover{
+	transition: all 750ms ease-in-out;
+	background: rgba(6, 0, 85, 0.25);
+	border: 1px double #14009d;
+	margin: 30px auto;
+
+}
+.AD > h3{
+	border: 1px solid rgba(0, 0, 0, 0.43);
+	border-radius: 30px ;
+	width: 90%;
+	margin: 10px auto;
+	background: rgba(0, 0, 0, 0.3);
+	transition: all 700ms ease-in-out;
+	cursor: pointer;
+	color: #ff544d;
+	font-size: 25px;
+}
+.AD > h3:hover{
+	transition: all 700ms ease-in-out;
+	background: rgba(255, 83, 81, 0.52);
+	color: aliceblue;
+	font-size: 35px;
+}
+.AD > ul{
+	background: rgba(255, 255, 255, 0.1);
+	margin: 20px;
+	margin-bottom: 10px;
+	border-radius: 20px 5px 5px 20px;
+	font-size: 25px;
+}
+.AD > ul:hover{
+	transition: all 2s ease;
+	background: rgba(0,0,0,0.5);
+}
+.AD > ul > li {
+	width: 150px;
+	margin: 10px auto;
+}
+.AD > ul > li :hover{
+	transition: all 1s ease-in-out;
+	color: antiquewhite;
+	width: 200px;
+	font-size: 30px;
+}
+.AD > ul > li > a{
+	color: #c4c362;
+}
+section{
+	height: auto;
+	width: calc(75% - 15px);
+	float: right;
+
+}
+.HOME > a > h1{
+	text-align: center;
+	font-size: 35px;
+	margin: 20px auto 0;
+	border: 5px double blue;
+	border-radius: 20px;
+	width: 600px;
+	background: rgba(0,0,0,0.6);
+	cursor: pointer;
+	color: aliceblue;
+}
+.info{
+	margin: 40px auto;
+
+}
+.info > div{
+
+}
+.info > div > table ,th ,tr ,td{
+	border: 3px solid black;
+	border-collapse: collapse;
+	width: auto;
+}
+.info > div > table{
+	text-align: center;
+}
+#INF{
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px;
+}
+.info  caption{
+	border: 5px double black;
+}
+.info table{
+	margin: 40px auto;
+	width: 70%;
+}

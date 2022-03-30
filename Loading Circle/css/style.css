@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#container{
+    width: 128px;
+    height: 128px;
+    position: relative;
+    margin: 100px auto;
+}
+.circle{
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: MyAnimation;
+    animation-duration: 0.60s;
+    animation-iteration-count: infinite;
+}
+@keyframes MyAnimation {
+    0%{transform: scale(4);}
+    100%{transform: scale(0);}
+}
+#circle1{left: 2.5px; top: 55px; background-color: #ff0005; animation-delay: 0.8s;}
+#circle2{left: 15px; top: 18px;background-color: #ff9800; animation-delay: 0.16s;}
+#circle3{top:2.5px ; left: 55px; background-color: #fffa00; animation-delay: 0.24s;}
+#circle4{right: 15px; top:18px; background-color: #57ff00; animation-delay: 0.32s;}
+#circle5{right:2.5px ; top: 55px; background-color: #00f2ff; animation-delay: 0.40s;}
+#circle6{right : 15px; bottom: 18px; background-color: #002cff; animation-delay: 0.48s;}
+#circle7{left:55px; bottom: 2.5px; background-color: #b700ff; animation-delay: 0.56s;}
+#circle8{left: 15px; bottom: 18px; background-color: #ff00fc; animation-delay: 0.64s;}

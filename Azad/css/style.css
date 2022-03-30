@@ -1,0 +1,223 @@
+
+/*  Ronakweb.com  */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: 'yekan';
+	src: url(fonts/Yekan.eot);
+	src: url(fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(fonts/Yekan.woff) format("woff"), url(fonts/Yekan.ttf) format("truetype"), url(fonts/Yekan.svg#BYekan) format("svg");
+	font-weight: normal;
+	font-style: normal
+}
+ul{
+	list-style: none;
+
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 500px;
+	background: url("../img/H.gif");
+}
+header > marquee{
+	font-size: 100px;
+	font-family: ActionIs;
+	margin-top: 50px;
+	color: #336899;
+	transition: all 800ms ease-in;
+}
+header > marquee:hover{
+	transition: all 400ms ease-in;
+	color: #990000;
+}
+
+header > ul > li{
+	transition: all 800ms ease-in-out;
+	font-size: 25px;;
+	float: left;
+	margin-left: 20px;
+	width: 130px;
+	height: 120px;
+	padding: 10px;
+	font-family: Adventure;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	line-height: 30px;
+	color: #000000;
+
+}
+header > ul >li:hover{
+
+	transition: all 800ms ease;
+	color: #fcff69;
+	border-top: solid #fcff69;
+	border-bottom: solid #fcff69;
+}
+header > ul{
+	margin-top: 130px;
+	text-align: center;
+	text-align: center;
+	margin-left: 30px;
+	transition: all 800ms ease-in-out;
+	background: #00ff83;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #fcff69;
+}
+
+nav > div > div >input[type=text]{
+	margin-top: 9px;
+	width: 400px;
+	height: 40px;
+	margin-left: 100px;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 15px 0 0 15px;
+	color: #00AD00;
+	float: left;
+	transition: all 550ms ease-in;
+}
+nav > div > div >input[type=text]:hover{
+	transition: all 250ms ease-in-out;
+	color: #0C9CE4;
+	background: #000000;
+
+}
+nav > div > span{
+	width: 48px;
+	height: 40px;
+	font-size: 35px;
+	position: absolute;
+	margin-top: 9px;
+	margin-left: -1px;
+	background-color: #3D3E42;
+	border-radius: 0 15px 15px 0;
+	border: 1px solid black;
+	text-align: center;
+	transition: all 550ms ease-in;
+
+}
+nav > div > span:hover{
+	transition: all 250ms ease-in-out;
+	color: #f9ffab;
+	background: #000000;
+}
+nav > div > span > i{
+	color: #f9ffab;
+	margin-top: 2px;
+}
+nav > div > span > i:hover{
+	color: #009fff;
+	transition: all 600ms ease-in-out;
+}
+.icon{
+	margin-left: 1100px;
+	transition: all 600ms ease-in-out;
+
+}
+
+.icon > ul > li{
+	text-align: center;
+	color: #000000;
+	margin-top: 10px;
+	height: 35px;
+	width: 35px;
+	padding: 1px;
+	font-size: 30px;
+	transition: all 600ms ease-in-out;
+}
+.icon > ul > li:hover{
+	transition: all 700ms ease-in-out;
+	color: #009fff;
+}
+aside{
+	width: 20%;
+	height: 100%;
+	background: #1A1A1A;
+	float: left;
+	text-align: center;
+
+}
+aside > div > ul > h3{
+	font-size: 50px;
+	color: #339933;
+}
+aside > div > ul > li{
+	line-height: 30px;
+	color: #00AD00;
+	font-size: 22px;
+}
+aside > div > marquee > i{
+	font-size: 50px;
+	color: #0C9CE4;
+}
+.Vidoes{
+
+
+}
+.Audio{
+
+}
+.Books{
+
+}
+.WinRAR{
+
+}
+section{
+	height: 100%;
+	width: 1000px;
+	padding-left: 300px;
+}
+.ParA{
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-top: 20px;
+	height: 330px;
+}
+.ParB{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	height: 330px;
+}
+.ParB > img{
+	padding: 15px;
+	float: left;
+	border-radius: 50%;
+
+}
+.ParB > h4{
+	font-size: 40px;
+}
+.ParB > p {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 430px;
+	height: 220px;
+	position: absolute;
+	margin-left: 520px;
+	padding: 10px;
+	background: wheat;
+}
+.ParB > P > input{
+	position: absolute;
+	height: 30px;
+	width: 60px;
+	font-size: 17px;
+	margin-top: 50px;
+	margin-left: 220px;
+	border-radius: 20px;
+	color: #0C9CE4;
+	background: #E8E8E8;
+}
+

@@ -1,0 +1,588 @@
+
+/*  Ronakweb.com  */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: 'QuranTaha';
+	font-family: 'yekan';
+	src: url(../fonts/Yekan.ttf);
+	src: url(../fonts/Yekan.eot?#iefix)
+	format("embedded-opentype"), url(../fonts/Yekan.woff)
+	format("woff"), url(../fonts/Yekan.ttf)
+	format("truetype"), url(../fonts/Yekan.svg#BYekan)
+	format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 150px;
+	background: #002e3e;
+	border-bottom: 5px solid #155448;
+}
+header:hover{
+	background: #39ffdc;
+}
+.Acc > ul > li{
+	font-size: 20px;
+	padding: 5px;
+	cursor: pointer;
+}
+.CON{
+	color: #9a9ca0;
+}
+#ins:hover{
+	transition: all 500ms ease-in-out;
+	color: #ff2c37;
+}
+#face:hover{
+	transition: all 500ms ease-in-out;
+	color: #095dff;
+}
+#tel:hover{
+	transition: all 500ms ease-in-out;
+	color: #0779cb;
+}
+#twi:hover{
+	transition: all 500ms ease-in-out;
+	color: #0053ff;
+}
+#wha:hover{
+	transition: all 500ms ease-in-out;
+	color: #34ca00;
+}
+.lan{
+	margin-top: -30px;
+	float: left;
+}
+.lan > select {
+	background: #4dfdff;
+	color: #002e3e;
+}
+header > marquee{
+	width: 100%;
+	font-size: 50px;
+	direction: ltr;
+	font-family: "berion";
+	position: absolute;
+	color: rgba(0, 0, 0, 1);
+
+}
+header > .list > ul > li{
+	float: right;
+	margin-left: 5px;
+	margin-top: 82px;
+	width: 65px;
+	height: 17px;
+	padding: 10px;
+	border: 1px solid #155448;
+	color: #15ff66;
+	border-radius: 12px 4px 20px 0 ;
+	background: #155448;
+	text-align: center;
+	font: 19px bold;
+	cursor: pointer;
+}
+header > .list > ul > li:hover{
+	background: #83ff8d;
+	color: #000000;
+	transition: all 100ms ease-in;
+}
+.search-box {
+	position: absolute;
+	margin-right: 1050px;
+	margin-top: 75px;
+	color: #00ff83;
+}
+.search-box > input{
+	height: 30px;
+	width: 250px;
+	border: 0.5px solid #1e9900;
+	border-radius: 0 15px 15px 0;
+	margin-left: -5px;
+	position: absolute;
+	margin-right: -50px;
+	color: #4a24ff;
+	background: #8fcc52;
+	font-size: 18px;
+}
+.search-box > input:hover{
+	transition: all 100ms ease-in;
+	background: #83ff8d;
+}
+.search-box > button{
+	height: 31px;
+	width: 50px;
+	border-radius: 15px 0 0 15px;
+	position: absolute;
+	font-size: 25px;
+	margin-right: 200px;
+	border: 0.5px solid #1e9900;
+	color: #040037;
+	background: #83ff8d;
+	cursor: pointer;
+}
+.search-box > button:hover{
+	transition: all 20ms ease-in-out;
+	background: #2b5640;
+	color: #80e8c1;
+}
+nav{
+	width: 100%;
+	height: 40px;
+	background: #68ff7b;
+	font-size: 25px;
+}
+nav:hover{
+	transition: all 900ms ease-in-out;
+	background: #408040;
+}
+.A{
+	float: right;
+	width: 14.8%;
+	height: 40px;
+	background: #c6ff5b;
+	color: #485483;
+	text-align: center;
+	border-left: 2px solid black;
+}
+.A:hover{
+	transition: all 400ms ease-in;
+	background: #ffd1a4;
+	color: black;
+}
+.A > marquee{
+	margin-top: 7px;
+}
+.B{
+	margin-right: 200px;
+	font-size: 30px;
+	text-align: center;
+	transition: all 600ms ease-in-out;
+}
+nav > .B > ul > li{
+	margin-right: 20px;
+	background: rgb(0, 143, 43);
+	border: 1px solid #244924;
+	border-radius: 20px 0 20px 0  ;
+	padding: 3px;
+	width: 60px;
+	height: 32px;
+	cursor: pointer;
+}
+nav > .B > ul > li:hover{
+	background: #8fffd9;
+	color: #000000;
+	border: 1px solid #91a988;
+	transition: all 1000ms ease-in-out;
+}
+aside{
+	width: 15%;
+	height: 800px;
+	background: #040037;
+	float: right;
+}
+aside:hover{
+	transition: all 1000ms ease;
+	color: #a9e899;
+	background: #2b5640;
+}
+aside > #FA{
+	font: 50px Bold b kamran;
+	color: #9eff93;
+	direction: ltr;
+}
+aside > #FB{
+	font-size: 50px;
+	line-height: 50px;
+	direction: ltr;
+	color: #5d7b4b;
+}
+aside > #FB:hover{
+	transition: all 1000ms ease;
+	color: #a9e899;
+
+}
+section{
+	direction: rtl;
+	text-align: center;
+	width: 100%;
+	height: 800px;
+	background: #a3ceb0;
+}
+.AS{
+	border: 1px solid black;
+	position: absolute;
+	margin-right: 200px;
+	width: 85%;
+}
+.TT{
+	border: 1px solid black;
+	position: absolute;
+	margin-right: 100px;
+	width: 900px;
+	height: 75px;
+	margin-top: 10px;
+}
+.TT > ul{
+	position: absolute;
+	line-height: 25px;
+	font-size: 20px;
+	width: 30px;
+	height: 22.5px;
+	text-align: center;
+	color: #ffb0b3;
+	padding: 3px;
+	cursor: pointer;
+
+}
+#s1:hover{
+	color: #040050;
+}
+#s2:hover{
+	color: #af0004;
+}
+#s3:hover{
+	color: #5d9f39;
+}
+.C1{
+	background: #ffbea8;
+	border: 3px solid black;
+	border-radius: 0 0 25px 25px;
+	position: absolute;
+	width: 280px;
+	margin: 100px;
+	height: 500px;
+}
+.C1 >div > h3{
+	font-size: 30px;
+	color: #000000;
+	border-bottom: 1px solid black;
+	width: 200px;
+	position: absolute;
+	margin-right: 40px;
+
+}
+.C1 > div > p{
+	font-size: 17px ;
+	position: absolute;
+	margin-top: 45px;
+}
+.C1 > button{
+	position: absolute;
+	margin-top: 286px;
+	width: 280px;
+	height: 30px;
+	margin-right: -139.5px;
+	font-size: 20px;
+	background: #d7775f;
+	color: #8fffd9;
+	border: 1px solid #74561c;
+	border-radius: 0 0 20px 20px;
+	cursor: pointer;
+}
+.C2{
+	background: #dbacff;
+	border: 3px solid black;
+	border-radius: 0 0 25px 25px;
+	position: absolute;
+	width: 280px;
+	margin: 100px;
+	height: 500px;
+	margin-right: 410px;
+}
+.C2 >div > h3{
+	font-size: 30px;
+	color: #000000;
+	border-bottom: 1px solid black;
+	width: 200px;
+	position: absolute;
+	margin-right: 40px;
+
+}
+.C2 > div > p{
+	font-size: 17px ;
+	position: absolute;
+	margin-top: 45px;
+}
+.C2 > button{
+	position: absolute;
+	margin-top: 286px;
+	width: 280px;
+	height: 30px;
+	margin-right: -139.5px;
+	font-size: 20px;
+	background: #6e4fd7;
+	color: #bee5ff;
+	border: 1px solid #181b74;
+	border-radius: 0 0 20px 20px;
+	cursor: pointer;
+}
+.C3{
+	background: #ffcf6b;
+	border: 3px solid black;
+	border-radius: 0 0 25px 25px;
+	position: absolute;
+	width: 280px;
+	margin: 100px;
+	height: 500px;
+	margin-right: 715px;
+
+}
+.C3 >div > h3{
+	font-size: 30px;
+	color: #000000;
+	border-bottom: 1px solid black;
+	width: 200px;
+	position: absolute;
+	margin-right: 40px;
+
+}
+.C3 > div > p{
+	font-size: 17px ;
+	position: absolute;
+	margin-top: 45px;
+}
+.C3 > button{
+	position: absolute;
+	margin-top: 286px;
+	width: 280px;
+	height: 30px;
+	margin-right: -139.5px;
+	font-size: 20px;
+	background: #b99222;
+	color: #f9ff41;
+	border: 1px solid #a1a42f;
+	border-radius: 0 0 20px 20px;
+	cursor: pointer;
+}
+.FF{
+	border: 1px solid black;
+	position: absolute;
+	margin-top: 640px;
+	margin-right: 50px;
+	width: 1000px;
+	height: 100px;
+	border-radius: 0 0 100px 100px;
+	background: #97bb82;
+}
+.FF > p{
+	position: absolute;
+	margin-right: 50px;
+	width: 900px;
+	display: block;
+	font-size: 35px;
+	border: 1px solid black;
+	border-radius: 0px 0px 50px 50px;
+	color: #938c6d;
+	background: #f5ff9f;
+
+}
+.FF > ul > li{
+	margin-top: 46px;
+	font-size: 40px;
+	width: 50px;
+	height: 38px;
+	padding: 5px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-right: 20px;
+	cursor: pointer;
+	transition: all 1000ms ease-in;
+}
+.FF > ul > li:hover{
+	transition: all 500ms ease-in;
+	background: rgba(0,0,0,0.3);
+	color: #172429;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+footer{
+	width: 100%;
+	height: 600px;
+	background: rgb(25, 36, 59);
+
+}
+.LL{
+	border: 1px solid black;
+	border-radius: 50px 50px 50px 50px;
+	padding: 10px;
+	margin-right: 50px;
+	margin-top: 20px;
+	float: right;
+	width: 400px;
+	height: 450px;
+	text-align: center;
+	background: #fec2b1;
+}
+.LL:hover{
+	background: #90e290;
+	color: #a8c0ff;
+	transition: all 700ms ease-in-out;
+	border: 1px solid #52ff41;
+
+}
+.LL > h3{
+	color: #dc5791;
+	font-size: 30px;
+
+}
+#form > input{
+	color: #4542e4;
+	background: #edffcd;
+	height: 30px;
+	margin: 10px;
+	border-radius: 0 15px 0px 0;
+	border: 1px solid #dd939f;
+	text-align: center;
+}
+#form > input[name=Las]{
+	 border-radius: 15px 0 0 0px;
+ }
+#form > input[name=Comm]{
+	width: 350px;
+	height: 200px;
+	border-radius: 0 0px 20px 20px;
+	text-align: match-parent;
+	color: #b01d2b;
+
+}
+#form > input[name=email]{
+	width: 300px;
+	height: 20px;
+	border-radius: 0 0 0px 0px;
+	text-align: center;
+	color: #5fbc55;
+
+}
+#form > input[type=submit]{
+	height: 30px;
+	width: 70px;
+	border-radius: 10px 10px 10px 10px;
+	color: #082e45;
+	background: #ffa5b6;
+	font-size: 20px;
+	cursor: pointer;
+}
+.CF{
+	border: 1px solid #80ff00;
+	background: #52ff41;
+	border-radius: 50px 50px 50px 50px;
+	width: 380px;
+	height: 400px;
+	position: absolute;
+	padding: 10px;
+	margin-right: 520px;
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+
+}
+.CF:hover{
+	background: #a2a3e4;
+	border: 1px solid #0C9CE4;
+}
+.CF > h3 {
+	color: #825e93;
+	font-size: 17px;
+	text-align: center;
+	transition: all 500ms ease-in-out;
+}
+.CF > ul > li{
+	padding: 15px;
+	float: right;
+	width: 70px;
+	height: 50px;
+	margin-right: 65px;
+	margin-top: 30px;
+	border-radius: 10px 50px 10px 50px;
+	font-size: 24px;
+	cursor: pointer;
+	transition: all 700ms ease;
+	background: rgba(254, 194, 177, 0.5);
+	border: 1px solid #5fbc55;
+}
+.CF > ul > li:hover{
+	background: #6c9ce4;
+	color: #7abeff;
+	transition: all 200ms ease-in-out;
+}
+.RR{
+	text-align: center;
+	border: 1px solid navajowhite;
+	background: #c3ffe3;
+	border-radius: 50px 50px 50px 50px;
+	width: 300px;
+	height: 450px;
+	position: absolute;
+	padding: 10px;
+	margin-right: 980px;
+	margin-top: 20px;
+	transition: all 2s ease-in-out;
+}
+.RR:hover{
+	background: #0C9CE4;
+	transition: all 700ms ease-in-out;
+
+}
+.RR > form > h4{
+	color: #342c17;
+	font-size: 17px;
+
+}
+.RR > form > input{
+	width: 200px;
+	height: 25px;
+	margin: 10px;
+	text-align: center;
+}
+.RR > form > input:hover{
+	background: #00ff83;
+	transition: all 200ms ease-in;
+	border: 1px solid blanchedalmond;
+}
+.RR > form > input[type=text]{
+	background: #76a6d9;
+	color: #4338ff;
+	border-radius: 12px;
+	border: 1px solid #49ff32;
+}
+.RR > form > input[type=password]{
+	 background: #afbeff;
+	 color: #0003ff;
+	border: 1px solid #a2ff7c;
+	 border-radius: 12px;
+ }
+.RR > form > input[type=submit] {
+	background: #7a849f;
+	color: #4dfdff;
+	width: 100px;
+	height: 25px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+.RR > form > input:hover{
+	background: #0C9CE4;
+	transition: all 1s ease-in-out;
+}
+.FFB{
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 10px 10px 10px 10px;
+	margin-top: 550px;
+	text-align: center;
+	width: 99.8%;
+	background: #000000;
+	color: #4dfdff;
+
+}

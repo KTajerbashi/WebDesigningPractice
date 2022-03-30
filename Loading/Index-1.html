@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Loading</title>
+    <style>
+        *{padding: 0; margin: 0; border: 0;}
+    #main{  width: 200px; padding:50px; margin: 50px auto;}
+        @keyframes textanimation{
+            from {color: black;}
+            to {color: #bababa;}
+        }
+        .Letter{
+            font: bolder 50px arial;
+            animation-name: textanimation;
+            animation-duration: 1.5s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+        #L1{animation-delay:0s; }
+        #L2{animation-delay:0.5s; }
+        #L3{animation-delay:1s; }
+        #L4{animation-delay:1.5s; }
+        #L5{animation-delay:2s; }
+    </style>
+
+</head>
+
+<body>
+<div id="main">
+    <span class="Letter" id="L1">W</span>
+    <span class="Letter" id="L2">A</span>
+    <span class="Letter" id="L3">I</span>
+    <span class="Letter" id="L4">T</span>
+    <span class="Letter" id="L5">...</span>
+</div>
+</body>
+
+</html>

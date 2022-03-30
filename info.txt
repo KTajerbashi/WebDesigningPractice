@@ -1,0 +1,23 @@
+سلام وقت شما بخیر
+برای اجرای بهتر فایل ها محتویات فولدر Main را داخل پروژه مورد نظر انتقال دهید تا تمامی فایل ها به درستی اجرا شوند
+
+در اصل برای نمایش درس اطلاعات و آیکون ها تنها پوشه
+fonts
+را از پوشه
+Main
+در پوشه مورد نظر خود کپی کنید تا محتویات درست نمایش داده شوند
+
+=======
+
+Hello, How R U?
+okay i want you will be best now.
+
+For better execution of files, move the contents of the Main folder into the desired project so that all files are executed correctly
+
+Originally for displaying lesson information and icons only folders
+fonts
+From the folder
+Main
+Copy to the desired folder to display the correct contents
+
+========
